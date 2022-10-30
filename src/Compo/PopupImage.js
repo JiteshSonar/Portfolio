@@ -1,8 +1,8 @@
 import React from "react";
-import { FaLink, FaPlus } from "react-icons/fa";
+import { FaLink } from "react-icons/fa";
 import "./PopupImage.css";
 
-const PopupImage = ({ title, img, pluslink, link }) => {
+const PopupImage = ({ title, img, link }) => {
   return (
     <div>
       <div className="single-work text-center">

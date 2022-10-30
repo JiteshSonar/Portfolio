@@ -24,6 +24,7 @@ import node from "../Assets/Skicons/nodejs_original_logo_icon_146411.png";
 import c from "../Assets/Skicons/c.png";
 import cpp from "../Assets/Skicons/cpp.png";
 import js from "../Assets/Skicons/js.png";
+import vue from "../Assets/Skicons/vue.png";
 
 const About = () => {
   return (
@@ -151,7 +152,19 @@ const About = () => {
                     <img className="ico" src={react} alt="" />
                   </div>
                 </div>
-
+                <div className="skill-percentage">
+                  <Progress done="80" />
+                </div>
+              </div>
+              <div className="skill-item">
+                <div className="skill-header">
+                  <div>
+                    <h5>Vue JS</h5>
+                  </div>
+                  <div>
+                    <img className="ico" src={vue} alt="" />
+                  </div>
+                </div>
                 <div className="skill-percentage">
                   <Progress done="80" />
                 </div>

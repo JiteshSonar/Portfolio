@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "../CSS/Navbar.css";
 import {
-  FaFacebookSquare,
   FaInstagramSquare,
   FaLinkedin,
 } from "react-icons/fa";
@@ -72,7 +71,7 @@ const Navbar = () => {
 
           {/* hamburget menu start  */}
           <div className="hamburger-menu">
-            <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+            <a onClick={() => setShowMediaIcons(!showMediaIcons)}>
               <GiHamburgerMenu />
             </a>
           </div>

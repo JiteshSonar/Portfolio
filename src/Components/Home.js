@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "../CSS/Home.css";
 import "../Styles.css";
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 /* ==========Images============== */
 import shapeOne from "../Assets/back/shape/shapeOne.png";
@@ -94,11 +94,11 @@ const Home = () => {
               <div class="col-lg-12">
                 <div class="header-social-icon">
                   <ul>
-                    <li>
-                      <a href="#">
+                    {/* <li>
+                      <a>
                         <FaFacebook />
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a href="https://instagram.com/_mr_j_e_e_t_0_4_?utm_medium=copy_link">
                         <FaInstagram />

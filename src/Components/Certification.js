@@ -7,6 +7,7 @@ import WEB from "../Assets/cirtficate/WEB.jpg";
 import UIUX from "../Assets/cirtficate/UIUX.jpg";
 import python from "../Assets/cirtficate/python.jpg";
 import c from "../Assets/cirtficate/c.jpg";
+import vue from "../Assets/cirtficate/vuee.jpg"
 import PopupImage from "../Compo/PopupImage";
 
 const Certification = () => {
@@ -45,6 +46,13 @@ const Certification = () => {
                 img={REACT}
                 pluslink=""
                 link="https://courses.learncodeonline.in/learn/certificate/2384806-53635"
+              />
+            </div>
+            <div className="pop col-lg-4 col-md-6 col-sm-6">
+              <PopupImage
+                title="VueJs Developement"
+                img={vue}
+                link="coursera.org/verify/DMXD4WHHCAB2"
               />
             </div>
             <div className="pop col-lg-4 col-md-6 col-sm-6">
