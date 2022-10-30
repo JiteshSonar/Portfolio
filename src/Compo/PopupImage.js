@@ -7,7 +7,7 @@ const PopupImage = ({ title, img, link }) => {
     <div>
       <div className="single-work text-center">
         <div className="work-image">
-          <img src={img} alt="" />
+          <img src={img} alt="01" />
         </div>
         <div className="work-overlay">
           <div className="work-content">
