@@ -96,7 +96,7 @@ const Contact = () => {
                   scrolling="no"
                   marginheight="0"
                   marginwidth="0"
-                />
+                ></iframe>
               </div>
             </div>
           </div>
