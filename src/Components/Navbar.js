@@ -52,11 +52,6 @@ const Navbar = () => {
         {/* 3rd social media links */}
         <div className="social-media">
           <ul className="social-media-desktop">
-            {/* <li>
-              <a href="">
-                <FaFacebookSquare className="facebook" />
-              </a>
-            </li> */}
             <li>
               <a href="https://instagram.com/_mr_j_e_e_t_0_4_?utm_medium=copy_link">
                 <FaInstagramSquare className="instagram" />

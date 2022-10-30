@@ -94,11 +94,6 @@ const Home = () => {
               <div class="col-lg-12">
                 <div class="header-social-icon">
                   <ul>
-                    {/* <li>
-                      <a>
-                        <FaFacebook />
-                      </a>
-                    </li> */}
                     <li>
                       <a href="https://instagram.com/_mr_j_e_e_t_0_4_?utm_medium=copy_link">
                         <FaInstagram />

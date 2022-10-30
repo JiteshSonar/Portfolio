@@ -28,7 +28,6 @@ const Certification = () => {
               <PopupImage
                 title="C programming"
                 img={c}
-                pluslink=""
                 link="https://coursera.org/verify/XBPXUDY7GYQY"
               />
             </div>
@@ -36,7 +35,6 @@ const Certification = () => {
               <PopupImage
                 title="Web Development"
                 img={WEB}
-                pluslink=""
                 link="https://coursera.org/verify/XBPXUDY7GYQY"
               />
             </div>
@@ -44,7 +42,6 @@ const Certification = () => {
               <PopupImage
                 title="React JS Development"
                 img={REACT}
-                pluslink=""
                 link="https://courses.learncodeonline.in/learn/certificate/2384806-53635"
               />
             </div>
