@@ -86,7 +86,7 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* <div className="col-lg-6">
+          <div className="col-lg-6">
             <div className="contact-map mt-60">
               <div className="gmap_canvas">
                 <iframe
@@ -99,7 +99,7 @@ const Contact = () => {
                 ></iframe>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>
