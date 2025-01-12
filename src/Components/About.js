@@ -25,6 +25,7 @@ import c from "../Assets/Skicons/c.png";
 import cpp from "../Assets/Skicons/cpp.png";
 import js from "../Assets/Skicons/js.png";
 import vue from "../Assets/Skicons/vue.png";
+import jetpack from "../Assets/Skicons/jetpack.svg";
 
 const About = () => {
   return (
@@ -35,10 +36,8 @@ const About = () => {
             <div className="col-lg-8">
               <div className="section-title text-center">
                 <h2 className="title">About Me</h2>
-                <p style={{alignContent: "center", marginBottom: "50px" }}>
-                  "A designer knows he has achieved perfection not when there is
-                  nothing left to add, but when there is nothing left to take
-                  away."
+                <p style={{ alignContent: "center", marginBottom: "50px" }}>
+                Innovative Full-Stack Development with a Focus on Quality.
                 </p>
               </div>
             </div>
@@ -47,15 +46,18 @@ const About = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="about-content mt-50">
-                <h5 className="about-title">Hi There! I'm Jitesh Sonar</h5>
-                <p>
-                  A UI Designer & Full-Stack Developer from Pune,
-                  Maharashtra. I am a Software Developer at Siddhatech Software
-                  Services Pvt Ltd, Pune. I did my Higher Secondary Education in
-                  Moolji Jetha (MJ) College, Jalgaon and undergraduate course in
-                  BE Computer Science at SSBT's College Of Engineering And
-                  Technology, Bambhori, Jalgaon. Affiliated to K.B.C. North
-                  Maharashtra University, Jalgaon.
+                <h5 className="about-title">Hi There! I'm <span className="highlited_word"> Jitesh Sonar</span></h5>
+                <p style={{textAlign: "justify"}}>
+                  I’m a passionate <span className="highlited_word">Software Developer</span> with <span className="highlited_word">2.6+ years</span> of
+                  experience at Siddhatech Software Services Pvt Ltd.,
+                  specializing in <span className="highlited_word">web and mobile application development</span>. I have
+                  a strong focus on creating scalable and high-quality solutions
+                  using <span className="highlited_word">React.js, React Native, Vue.js</span>, and <span className="highlited_word">Jetpack Compose</span>,
+                  with expertise in <span className="highlited_word">banking, financial services</span>, and <span className="highlited_word">project
+                  management systems</span>. Proficient in <span className="highlited_word">TypeScript, Redux Toolkit,
+                  MongoDB</span>, and <span className="highlited_word">Tailwind CSS</span>, I thrive in <span className="highlited_word">Agile Scrum teams.</span> I
+                  was also honored with the <span className="highlited_word">'Best Table of the Year'</span> award for
+                  my exceptional contributions.
                 </p>
                 <ul className="clearfix" style={{ marginBottom: "50px" }}>
                   <li>
@@ -78,8 +80,8 @@ const About = () => {
                       <div className="info-text">
                         <p>
                           <span>Email: </span>
-                          <a href="mailto:jiteshsonar03@gmail.com?subject=Mail from our Website">
-                            jiteshsonar03@gmail.com
+                          <a href="mailto:sonar.jitesh03@gmail.com?subject=Mail from our Website">
+                            sonar.jitesh03@gmail.com
                           </a>
                         </p>
                       </div>
@@ -104,8 +106,7 @@ const About = () => {
                       </div>
                       <div className="info-text">
                         <p>
-                          <span>Location:</span> Kothrud, Pune, 411038
-                          Maharashtra, India
+                          <span>Location:</span> 411027, Pimple Saudagar, Pune, Maharashtra, India
                         </p>
                       </div>
                     </div>
@@ -153,7 +154,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className="skill-percentage">
-                  <Progress done="80" />
+                  <Progress done="90" />
                 </div>
               </div>
               <div className="skill-item">
@@ -197,7 +198,20 @@ const About = () => {
                   </div>
                 </div>
                 <div className="skill-percentage">
-                  <Progress done="60" />
+                  <Progress done="80" />
+                </div>
+              </div>
+              <div className="skill-item">
+                <div className="skill-header">
+                  <div>
+                    <h5>JETPACK COMPOSE (Android)</h5>
+                  </div>
+                  <div>
+                  <img className="ico" src={jetpack} alt="" />
+                  </div>
+                </div>
+                <div className="skill-percentage">
+                  <Progress done="100" />
                 </div>
               </div>
               <div className="skill-item">
@@ -235,7 +249,7 @@ const About = () => {
                   <li>
                     <a
                       className="main-btn custom"
-                      href="https://drive.google.com/file/d/1hjqR7aORWXYTkCuDkfkWlksSDoVASg8F/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1HcrffU4j0HDUJHld4ceWvsdJH0cXnZzd/view?usp=sharing"
                     >
                       download cv
                     </a>

@@ -26,7 +26,7 @@ const Contact = () => {
               </div>
               <div className="contact-content">
                 <h6 className="contact-title">Address</h6>
-                <p>411038, Kothrud Pune, Maharashtra, India</p>
+                <p>411027, Pimple Saudagar, Pune, Maharashtra, India</p>
               </div>
             </div>
           </div>
@@ -50,8 +50,8 @@ const Contact = () => {
               <div className="contact-content">
                 <h6 className="contact-title">Email</h6>
                 <p>
-                  <a href="mailto:jiteshsonar03@gmail.com?subject=Mail from our Website">
-                    jiteshsonar03@gmail.com
+                  <a href="mailto:sonar.jitesh03@gmail.com?subject=Mail from our Website">
+                    sonar.jitesh03@gmail.com
                   </a>
                 </p>
                 <p></p>

@@ -71,10 +71,10 @@ const Home = () => {
               <div class="header-content-right">
                 <h4 class="sub-title">Hello, I’m</h4>
                 <h1 class="title">Jitesh Sonar</h1>
-                <p>A UI Designer & Full-stack Developer</p>
+                <p>Full-stack Developer</p>
                 <a
                   class="main-btn"
-                  href="https://drive.google.com/file/d/1hjqR7aORWXYTkCuDkfkWlksSDoVASg8F/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1HcrffU4j0HDUJHld4ceWvsdJH0cXnZzd/view?usp=sharing"
                 >
                   DOWNLOAD CV
                 </a>
